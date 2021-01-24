@@ -1,0 +1,33 @@
+<div class="site-section bg-dark">
+    <div class="container">
+      <div class="row">
+    
+        <div class="col-lg-12">
+          
+          <div class="widget-next-match">
+            <table class="table custom-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Number</th>
+                  <th>Team</th>
+                  <th>Position</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let player of players">
+                  <td>{{player.name}}</td>
+                  <td>{{player.number}}</td>
+                  <td>{{player.team}}</td>
+                  <td>{{player.poste}}</td>
+                  <td>{{player.age}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

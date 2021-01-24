@@ -20,6 +20,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AddPlayComponent } from './components/add-play/add-play.component';
 import { AddMatchComponent } from './components/add-match/add-match.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AddMatchComponent } from './components/add-match/add-match.component';
     LoginComponent,
     SignupComponent,
     AddPlayComponent,
-    AddMatchComponent
+    AddMatchComponent,
+    AdminComponent
   ],
   imports: [
     FormsModule,
