@@ -17,6 +17,9 @@ import { ScoresComponent } from './components/scores/scores.component';
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AddPlayComponent } from './components/add-play/add-play.component';
+import { AddMatchComponent } from './components/add-match/add-match.component';
 
 @NgModule({
   declarations: [
@@ -34,9 +37,13 @@ import { SignupComponent } from './components/signup/signup.component';
     ScoresComponent,
     BlogHomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    AddPlayComponent,
+    AddMatchComponent
   ],
   imports: [
+    FormsModule,
+    ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule
   ],
